@@ -5,5 +5,13 @@ a = 10;
 // a = "richard"; //! 此行代码会报错，不能赋值字符串
 
 let b:unknown;
+b = "richard";
 
-b = "richard"
+let c:boolean = true;
+
+function sum(a:number,b:number):number{
+    return a + b;
+}
+
+console.log(sum(1,2));
+// console.log(sum(1,"2"));
