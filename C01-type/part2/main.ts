@@ -1,1 +1,3 @@
-console.log('Hello World');
+import person from "./module"
+
+console.log(person);
