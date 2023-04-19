@@ -14,7 +14,7 @@
         sayHi():void{
             alert(`${this.name},我创建好了！`);
         };
-            
+        
     }
 
     // 定义一个狗类,继承自Animal
@@ -46,5 +46,5 @@
     yoyo.msg();
     let mimi = new Cat("mimi",2);
     mimi.sayHi();
-    
+
 })();
